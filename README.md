@@ -2,7 +2,12 @@
 
 > 🌟 An intelligent shopping assistant that makes your online shopping experience more interactive and personalized!
 
-![Chatbot Interface](screenshot1.png)
+## 📺 Demo Video
+
+[![Chatbot Demo](Screenshot/1.png)](https://youtu.be/3XQ-zuWE00g?si=tUpgNEbGcm33xisF)
+
+*Watch our chatbot in action! Click the image above to view the demo video.*
+
 *Our sleek and intuitive chat interface*
 
 ## ✨ Features
@@ -12,7 +17,7 @@
 - Natural language processing for better understanding
 - Quick response times for seamless interaction
 
-![Chat Features](screenshot2.png)
+![Chat Features](Screenshot/6.png)
 *Example of personalized product recommendations*
 
 🎯 **Personalized Shopping Experience**
@@ -92,8 +97,6 @@ VITE_URL=your_api_url_here
 ```bash
 npm run dev
 ```
-
-![Setup Process](screenshot3.png)
 *Quick and easy setup process*
 
 ## 💡 Usage
@@ -103,7 +106,7 @@ npm run dev
 3. 🛍️ Get personalized shopping recommendations
 4. ✨ Enjoy the smooth shopping experience!
 
-![Usage Example](screenshot4.png)
+![Usage Example](Screenshot/9.png)
 *Example of a shopping conversation*
 
 ## 🤝 Contributing
@@ -123,14 +126,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### 📸 More Screenshots
-
-![Mobile View](screenshot5.png)
-*Responsive mobile interface*
-
-![Dark Mode](screenshot6.png)
-*Dark mode support for comfortable nighttime shopping*
-
----
-
-Made with ❤️ by Your Team
+Made with ❤️ by Jeevesh Rai

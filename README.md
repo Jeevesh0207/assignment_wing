@@ -48,26 +48,116 @@
 ## 📁 Project Structure
 
 ```
-assignment_wing
-├── 📂 /public
-│   ├── 📄 index.html
-│   └── 🎨 favicon.ico
-├── 📂 /src
-│   ├── 📂 /components
-│   │   ├── 📂 /Chatbot
-│   │   │   ├── 🎨 ChatBot.module.css
-│   │   │   ├── 📄 InputForm.jsx
-│   │   │   └── 📄 MessageList.jsx
-│   │   └── 📂 /common
-│   ├── 📂 /pages
-│   │   └── 📄 Chat.jsx
-│   ├── 📂 /hooks
-│   ├── 📄 App.jsx
-│   ├── 📄 index.js
-│   └── 🎨 styles.css
-├── 📄 .env
-├── 📄 package.json
-└── 📄 README.md
+📦 assignment_wing
+├─ 📜 .gitignore
+├─ 📖 README.md
+├─ ⚙️ components.json
+├─ 🔍 eslint.config.js
+├─ 🌐 index.html
+├─ 🔒 package-lock.json
+├─ 📦 package.json
+├─ 🎨 postcss.config.js
+├─ 📂 public
+│  └─ 🖼️ vite.svg
+├─ 📂 src
+│  ├─ 🎨 App.css
+│  ├─ ⚛️ App.jsx
+│  ├─ 📂 Pages
+│  │  ├─ 💬 Chats
+│  │  │  └─ Chats.jsx
+│  │  ├─ 👥 Groups
+│  │  │  ├─ Groups.jsx
+│  │  │  ├─ chat-messages.jsx
+│  │  │  ├─ files-list.jsx
+│  │  │  └─ members-list.jsx
+│  │  ├─ 🏠 Home
+│  │  │  └─ Home.jsx
+│  │  ├─ 💰 Sales
+│  │  │  └─ Sales.jsx
+│  │  ├─ ⚙️ Setting
+│  │  │  └─ Setting.jsx
+│  │  └─ 📑 index.js
+│  ├─ 🎨 assets
+│  │  └─ react.svg
+│  ├─ 🧩 components
+│  │  ├─ 🤖 Chatbot
+│  │  │  ├─ ChatBot.module.css
+│  │  │  ├─ InputForm.jsx
+│  │  │  ├─ InputForm.module.css
+│  │  │  ├─ Loading.jsx
+│  │  │  ├─ Loading.module.css
+│  │  │  ├─ MessageItem.jsx
+│  │  │  ├─ MessageItem.module.css
+│  │  │  ├─ MessageList.jsx
+│  │  │  ├─ MessageList.module.css
+│  │  │  └─ index.js
+│  │  ├─ 👀 Glance
+│  │  │  └─ Glance.jsx
+│  │  ├─ 📌 Header
+│  │  │  └─ Header.jsx
+│  │  ├─ 📊 Insights
+│  │  │  ├─ ConsulationChart.jsx
+│  │  │  ├─ Insights.jsx
+│  │  │  └─ VsPast.jsx
+│  │  ├─ 📦 Orders
+│  │  │  └─ Order.jsx
+│  │  ├─ ⚙️ Setting
+│  │  │  ├─ account-form.jsx
+│  │  │  ├─ notifications-form.jsx
+│  │  │  ├─ profile-form.jsx
+│  │  │  ├─ security-form.jsx
+│  │  │  ├─ separator.jsx
+│  │  │  └─ sidebar-nav.jsx
+│  │  ├─ 🔄 Sidebar
+│  │  │  └─ Sidebar.jsx
+│  │  ├─ 🎨 Theme
+│  │  │  └─ Theme.jsx
+│  │  ├─ 📑 index.js
+│  │  └─ 🎯 ui
+│  │     ├─ avatar.jsx
+│  │     ├─ button.jsx
+│  │     ├─ card.jsx
+│  │     ├─ dropdown-menu.tsx
+│  │     ├─ form.jsx
+│  │     ├─ input.jsx
+│  │     ├─ label.jsx
+│  │     ├─ scroll-area.jsx
+│  │     ├─ table.jsx
+│  │     ├─ tabs.jsx
+│  │     └─ textarea.jsx
+│  ├─ 🖼️ img
+│  │  ├─ Logo.png
+│  │  ├─ assistant.png
+│  │  ├─ image.jpg
+│  │  └─ user.png
+│  ├─ 🎨 index.css
+│  ├─ 🛠️ lib
+│  │  └─ utils.ts
+│  ├─ ⚡ main.jsx
+│  └─ 🎨 svg
+│     ├─ Arrow45Svg.jsx
+│     ├─ ArrowDownSvg.jsx
+│     ├─ ArrowUpSvg.jsx
+│     ├─ BarSvg.jsx
+│     ├─ ChartPieSliceSvg.jsx
+│     ├─ ChatTeardropSvg.jsx
+│     ├─ ConversionSvg.jsx
+│     ├─ DownSvg.jsx
+│     ├─ HomeSvg.jsx
+│     ├─ LogoSvg.jsx
+│     ├─ MessageSvg.jsx
+│     ├─ OrderValueSvg.jsx
+│     ├─ PiggyBankSvg.jsx
+│     ├─ SaleValueSvg.jsx
+│     ├─ SettingSvg.jsx
+│     ├─ TagSvg.jsx
+│     ├─ UserSvg.jsx
+│     └─ index.js
+├─ 🎨 tailwind.config.js
+├─ ⚙️ tsconfig.app.json
+├─ ⚙️ tsconfig.json
+├─ 🚀 vercel.json
+└─ ⚡ vite.config.js
 ```
 
 ## 🚀 Getting Started

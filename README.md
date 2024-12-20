@@ -171,12 +171,12 @@
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/chatbot-app.git
+git clone https://github.com/Jeevesh0207/assignment_wing.git
 ```
 
 2. **Navigate to project folder:**
 ```bash
-cd chatbot-app
+cd assignment_wing
 ```
 
 3. **Install dependencies:**

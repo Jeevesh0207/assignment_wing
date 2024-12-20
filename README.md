@@ -10,6 +10,13 @@
 
 *Our sleek and intuitive chat interface*
 
+---
+## 🌐 Live Links
+
+🔗 **Live Site**: [Try the Chatbot](https://assignment-wing.vercel.app/)
+
+🎥 **Main Demo**: [Watch on YouTube](https://youtu.be/3XQ-zuWE00g?si=tUpgNEbGcm33xisF)
+
 ## ✨ Features
 
 🗣️ **Interactive Chat Interface**

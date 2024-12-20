@@ -1,0 +1,36 @@
+.inputForm {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+@media screen and (max-width:500px){
+  .inputForm {
+    flex-direction: column;
+  }
+}
+
+.input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.sendButton {
+  background-color: #134E48;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.sendButton:hover {
+  background-color: #115E56;
+}
+
